@@ -3,8 +3,9 @@
   min-height: 100vh;
   /* padding: 30px 30px 43px 30px; */
   nav {
-    padding: 20px 30px;
+    padding: 20px 30p;
     display: flex;
+    justify-content: center;
     background: linear-gradient(270deg, #7743DB 31.64%, #5725E5 66.78%);
     h1 {
       color: #fff;
@@ -49,7 +50,7 @@
       line-height: 109%;
     }
     button {
-      padding: 10px 20px;
+      padding: 5px 5px;
       border-radius: 25px;
       background: linear-gradient(263deg, #7743db 38.81%, #5725e5 70.24%);
       a {
