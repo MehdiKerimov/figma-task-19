@@ -37,14 +37,9 @@ display: none;
 @media screen and (max-width:1024px) {
 display: block;
 }
-
-}
-.close-btn{
-  display: none;
 }
   }
   .menu-list{
-    width: 100%;
     background: linear-gradient(270deg, #7743DB 31.64%, #5725E5 66.78%);
 box-shadow: 0px 26px 50px 14px rgba(0, 0, 0, 0.20);
 display: flex;
@@ -53,7 +48,7 @@ align-items: center;
 justify-content: center;
 padding: 20px 30px;
 display: none;
-position: absolute;
+position: relative;
 a{
   color: #FFF;
 text-align: center;
